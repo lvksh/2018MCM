@@ -1,0 +1,56 @@
+---
+title: "Models"
+author: "吕坤升"
+date: "2018/2/11"
+output: html_document
+---
+
+[1] "NGACV" "NGCCV" "NGICV" "NGRCV" "NNACB" "NNCCB" "NNICB" "NNRCB" "PAACB" "PAACV" "PACCB" "PACCV" "PAICB"
+[14] "PAICV" "PARCB" "PARCV"
+
+# AZ 
+
+因/自变量|函数关系式| $R^2$
+----|------|----
+Y ~ X | Y1 = 2.672e+00 PAACB + 7.598e+02 PARCV + 8.822e+04  |    0.99
+Y ~ X | Y2 = 1.331 PAACB - 2.590 PAICB - 56430.379  |   0.75
+X ~ Year | PAACB = 9.005e+03 Year - 1.758e+07   |   0.94
+X ~ Year | PARCV = - 3.581e+02 Year + 9.056e-02 $Year^2$ - 4412.7658    |    0.77
+X ~ Year | PAICB = 1.199e05 sin(0.006114 Year+113.9) + 9660 sin(0.2221 Year-185.6)+3571 sin(0.3512 Year+68.1)    |   0.8847
+
+# CA
+
+因/自变量|函数关系式| $R^2$
+----|------|----
+Y ~ X | Y1 = 1.900e+00 PAACB + 2.177e+06  |    0.96
+Y ~ X | Y2 = 1.587 JKTCB -4.833 NGICV  + 2.267e+05  |   0.8
+X ~ Year | PAACB = 37550 Year - 72108586   |   0.95
+X ~ Year | JKTCB ~ 1.178e+04 Year - 2.301e+07    |    0.93
+X ~ Year | NGICV ~ 142.1 Year -280361.8    |    0.8
+
+# NM 
+
+因/自变量|函数关系式| $R^2$
+----|------|----
+Y ~ X | Y1 = 3.452e+00 PAACB + 2.800e+06 |    0.92
+Y ~ X | Y2 = 7.5412 PAACV -31.2067 PARCV + 1369.9210 |   0.84
+X ~ Year | PAACB = 2191.3 Year - 4203950.9   |    0.87
+X ~ Year | PAACV = - 1.265e+04 Year + 3.201 $Year^2$ +1.250e+07     |   0.83
+X ~ Year | PARCV = 1400 sin(0.009562 Year+138.2)+134.6 sin(0.2108 Year-101.1)+73.48 sin(0.3946 Year-141.7) |  0.9
+
+
+# TX 
+
+因/自变量|函数关系式| $R^2$
+----|------|----
+Y ~ X |  Y1 = - 688.2 NGRCV + 2.280 PAACB + 1.748 PAICB + 1.926e+06 |  0.97
+Y ~ X | Y2 = 316.169 NGRCV - 1.416 NGICV - 80714.039  |   0.70
+X ~ Year | NGRCV = 49.839 Year - 97939.195   |   0.87
+X ~ Year | PAACB = 39914 Year - 77366230     |   0.96
+X ~ Year | PAICB = 46513 Year - 90187886     |   0.89
+X ~ Year | NGICV = 3.88e04 sin(0.004484 Year+148.3)+1124 sin(0.2694 Year - 218.1) | 0.8426
+
+
+
+
+
